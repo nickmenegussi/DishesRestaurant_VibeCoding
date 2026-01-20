@@ -15,7 +15,7 @@ import DishList from "./features/menu/DishList";
 import DashboardOverview from "./features/dashboard/DashboardOverview";
 import DishForm from "./features/menu/DishForm";
 import LoginForm from "./features/auth/LoginForm";
-import RegisterForm from "./features/auth/RegisterForm";
+// import RegisterForm from "./features/auth/RegisterForm";
 import PublicMenu from "./features/public/PublicMenu";
 import LandingPage from "./features/public/LandingPage";
 import DishDetail from "./features/public/DishDetail";
@@ -50,7 +50,7 @@ function App() {
               {/* Auth Routes */}
               <Route path="/auth" element={<AuthLayout />}>
                 <Route path="login" element={<LoginForm />} />
-                <Route path="register" element={<RegisterForm />} />
+                {/* <Route path="register" element={<RegisterForm />} /> */}
               </Route>
 
               {/* Admin Routes (Protected) */}
